@@ -1,0 +1,45 @@
+{
+    "name": "d3-challange",
+    "version": "1.0.0",
+    "engines": {
+        "node" : "16.x",
+        "npm":  "7.x"
+    },
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "clear && ts-node-dev ./src/index.ts",
+        "start": "tsc && node ./build/src/index.js",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaofilippe/d3-challange.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joaofilippe/d3-challange/issues"
+    },
+    "homepage": "https://github.com/joaofilippe/d3-challange#readme",
+    "dependencies": {
+        "@types/jest": "^27.0.3",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jest": "^27.3.1",
+        "knex": "^0.95.14",
+        "mysql": "^2.18.1",
+        "ts-jest": "^27.0.7"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/knex": "^0.16.1",
+        "@types/node": "^16.11.10",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.5.2"
+    }
+}
